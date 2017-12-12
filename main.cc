@@ -7,8 +7,10 @@
 #include <iostream>
 #include <cstdlib>
 #include <fstream>
+#include <string>
 #include "countLine.h"
 #include "countChar.h"
+using namespace std;
 
 /**
 The main function of the program
@@ -31,8 +33,8 @@ int countChar(char* pname){
 	string tmp;
 	char c[200];
 	while(!file.eof()){
-		tmp.getline(c);
 	}
+	return counter;
 }
 
 /*
@@ -41,5 +43,6 @@ The function that counts the number of lines in a file
 @param: char* pname
 */
 int countLines(char* pname){
-
+	int counter=0;
+	return counter;
 }

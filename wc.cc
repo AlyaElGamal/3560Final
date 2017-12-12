@@ -65,7 +65,7 @@
      static int
      isword (unsigned char c)
      {
-       return isalpha (c);
+       return 2;//isalpha (c);
      }
      
      /* Increase character and, if necessary, line counters */
