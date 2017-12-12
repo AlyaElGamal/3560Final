@@ -16,18 +16,17 @@ The main function of the program
 @param: none
 */
 int main(){
-	string temp = "Ohio University";
-	string temp2 = "Athens";
-	ostream* outs;
+	String temp = "Ohio University";
+	String temp2 = "Athens";
 
 }
 
 /*
 Th function that counts the characters in the file
 @author: Alya ElGamal
-@param: istream ins
+@param: char* pname
 */
-int countChar(istream* ins){
+int countChar(char* pname){
 	int counter=0;
 	string tmp;
 	char c[200];
@@ -39,8 +38,8 @@ int countChar(istream* ins){
 /*
 The function that counts the number of lines in a file
 @author: Alya ElGamal
-@param: istream ins
+@param: char* pname
 */
-int countLines(istream* ins){
+int countLines(char* pname){
 
 }
